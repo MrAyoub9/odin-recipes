@@ -8,8 +8,8 @@
     <style>
         div {
             margin: auto;
-            width: 50%;
-            height: 50%;
+            width: 80%;
+            height: 70%;
             text-align: center;
         }
         img {
@@ -22,14 +22,27 @@
             font-size: 22px;
         }
         li{
-            margin-top: 50px;
+            display: inline;
+            margin-right: 20px;
         }
         a {
             text-decoration: none;
             color: chocolate;
         }
         a:hover {
-            color:saddlebrown;
+            color:crimson;
+        }
+
+        .recipe {
+            width: 150px;
+            height: 150px;
+        }
+        fieldset {
+            display: inline;
+            width: 180px;
+        }
+        fieldset:hover {
+            background-color:lightskyblue;
         }
 
     </style>
@@ -40,15 +53,30 @@
         <img src="https://media.giphy.com/media/1ngQorBCDcUFy/giphy.gif">
         <br>
         <ul>
-            <li>
-                <a href="recipes/macaron.html">French Macaroon</a>
-            </li>
-            <li>
-                <a href="recipes/lace-cookies.html">Lace Cookies</a>
-            </li>
-            <li>
-                <a href="recipes/oatmeal-bars.html">Oat Meal Peanut Butter Bars</a>
-            </li>
+            <fieldset>
+                <li>
+                    <a href="recipes/macaron.html">
+                        French Macaroon
+                        <img src="recipes/macaron.jpg" class="recipe">
+                    </a>
+                </li>
+            </fieldset>
+            <fieldset>
+                <li>
+                    <a href="recipes/lace-cookies.html">
+                        Lace Cookies
+                        <img src="https://d33wubrfki0l68.cloudfront.net/2b766e81fcf0ab2894cc71edbf53869978b1ca7e/387c5/images/uploads/2019_01_08_chocolate_hazelnut_florentine_cookies_0.jpg" class="recipe">
+                    </a>
+                </li>
+            </fieldset>
+            <fieldset>
+                <li>
+                    <a href="recipes/oatmeal-bars.html">
+                        Oat Meal Bars
+                        <img src="https://www.eatingonadime.com/wp-content/uploads/2021/06/No-Bake-Peanut-Butter-Bars-Square-recipe.jpg" class="recipe">
+                    </a>
+                </li>
+            </fieldset>
         </ul>
     </div>
 </body>
